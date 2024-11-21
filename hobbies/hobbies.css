@@ -1,0 +1,110 @@
+p {
+    font-size: 16px; /* 字体大小 */
+    line-height: 1.5; /* 行高是字体大小的1.5倍 */
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0; /* 冷色调背景 */
+	color: #333;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	background: #333;
+	color: #fff;
+	padding: 10px 0;
+	font-size: 24px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	font-size: 36px;
+	font-family: "楷体";
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+	transition: color 0.0s ease;
+}
+
+nav ul li a:hover {
+	color: #2106E4; /* 鼠标悬停时变为蓝色 */
+	text-decoration: underline;
+	text-shadow: 0px 0px #FFFFFF;
+}
+
+
+.nav-link, b {
+    color: black; /* 设置文本颜色为蓝色 */
+}
+.nav-link, b:hover {
+    color: black; /* 设置文本颜色为蓝色 */
+}
+/*
+nav ul li b {
+    color: #000000;
+    text-decoration: none;
+	transition: color 0.0s ease;
+}
+
+nav ul li b:hover {
+	color: #2106E4;  鼠标悬停时变为蓝色 
+	text-decoration: underline;
+	text-shadow: 0px 0px #FFFFFF;
+}
+*/
+
+
+.video-center {
+    display: block; /* 使video元素表现为块级元素 */
+    margin-left: auto; /* 左边距设置为自动 */
+    margin-right: auto; /* 右边距设置为自动 */
+    max-width: 100%; /* 视频最大宽度为100%，以适应容器 */
+    height: auto; /* 高度自动，保持视频长宽比 */
+}
+
+.slider {
+    display: flex; /* 设置为Flex容器 */
+    justify-content: center; /* 水平居中显示 */
+    align-items: center; /* 垂直居中显示 */
+    flex-wrap: wrap; /* 允许Flex项换行 */
+    column-gap: 5px; /* 垂直间距 */
+    row-gap: 10px; /* 设置图片之间的间距 */
+
+}
+
+.slider img {
+    width: auto; /* 自动宽度，保持长宽比例 */
+    max-width: 500px; /* 您可以根据需要定义图片的最大宽度 */
+    height: auto; /* 自动高度，保持长宽比例 */
+    opacity: 0; /* 初始状态为完全透明 */
+    transition: opacity 4s ease; /* 平滑过渡效果 */
+    margin: 5px; /* 设置图片周围的边距 */
+}
+
+.slider img.active {
+    opacity: 1; /* 活动图片为不透明 */
+}
+
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
+    width: 100%;
+}
+nav ul li {
+}

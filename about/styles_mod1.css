@@ -1,0 +1,72 @@
+
+p {
+    font-size: 16px; /* 字体大小 */
+    line-height: 1.5; /* 行高是字体大小的1.5倍 */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* 冷色调背景 */
+    color: #333;
+}
+
+header {
+	background: #333;
+	color: #fff;
+	padding: 10px 0;
+	font-size: 24px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	font-size: 36px;
+	font-family: "楷体";
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+	transition: color 0.0s ease;
+}
+
+nav ul li a:hover {
+    color: #3B19E5; /* 鼠标悬停时变为蓝色 */
+	text-decoration: underline;
+}
+
+
+
+#quotes {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9; /* 浅灰色背景 */
+    border-radius: 8px; /* 圆角边框 */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 轻微的阴影效果 */
+}
+
+#quotes h2 {
+    color: #333; /* 标题颜色 */
+    font-size: 24px; /* 标题字体大小 */
+    margin-bottom: 15px; /* 标题与内容的间距 */
+}
+
+#quotes p {
+	font-style: italic; /* 斜体字 */
+	color: #666; /* 名言字体颜色 */
+	font-family: "楷体";
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
+    width: 100%;
+}

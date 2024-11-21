@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* 冷色调背景 */
+    color: #333;
+}
+
+header {
+	background: #333;
+	color: #fff;
+	padding: 10px 0;
+	font-size: 24px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	font-size: 36px;
+	font-family: "楷体";
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+	transition: color 0.0s ease;
+}
+
+nav ul li a:hover {
+    color: #3B19E5; /* 鼠标悬停时变为蓝色 */
+	text-decoration: underline;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: auto; /* 修改处：添加滚动条 */
+    height: 600px; /* 修改处：增加显示框的高度 */
+    display: flex;
+    align-items: center; /* 修改处：垂直居中 */
+    justify-content: center; /* 修改处：水平居中 */
+}
+
+.slider img {
+   width: auto; /* 修改处：自动宽度 */
+    max-width: 100%; /* 修改处：最大宽度不超过容器 */
+    height: top; /* 修改处：自动高度 */
+    max-height: 100%; /* 修改处：最大高度不超过容器 */
+    transition: opacity 1.5s ease; /* 修改处：添加淡出效果 */
+    opacity: 0; /* 修改处：默认不显示 */
+    position: absolute; /* 修改处：绝对定位 */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 修改处：居中定位 */
+    
+}
+
+.slider img.active {
+    opacity: 1; /* 修改处：活动图片显示 */
+}
+
+#quotes {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9; /* 浅灰色背景 */
+    border-radius: 8px; /* 圆角边框 */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 轻微的阴影效果 */
+}
+
+#quotes h2 {
+    color: #333; /* 标题颜色 */
+    font-size: 24px; /* 标题字体大小 */
+    margin-bottom: 15px; /* 标题与内容的间距 */
+}
+
+#quotes p {
+	font-style: italic; /* 斜体字 */
+	color: #666; /* 名言字体颜色 */
+	font-family: "楷体";
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
+    width: 100%;
+}
