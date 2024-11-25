@@ -50,25 +50,25 @@ nav ul li a:hover {
 }
 
 .slider {
-    display: flex; /* 设置为Flex容器 */
-    justify-content: center; /* 水平居中显示 */
-    align-items: center; /* 垂直居中显示 */
-    flex-wrap: wrap; /* 允许Flex项换行 */
+    display: flex; /*设置容器：flex*/
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; /* 换行 */
     column-gap: 5px; /* 垂直间距 */
-    row-gap: 10px; /* 设置图片之间的间距 */
+    row-gap: 10px; /*横向间距 */
 }
 
 .slider img {
-    width: auto; /* 自动宽度，保持长宽比例 */
-    max-width: 500px; /* 您可以根据需要定义图片的最大宽度 */
-    height: auto; /* 自动高度，保持长宽比例 */
-    opacity: 0; /* 初始状态为完全透明 */
-    transition: opacity 4s ease; /* 平滑过渡效果 */
+    width: auto;
+    max-width: 500px; /* 定义图片的最大宽度 */
+    height: auto; 
+    opacity: 0;
+    transition: opacity 4s ease; 
     margin: 5px; /* 设置图片周围的边距 */
 }
 
 .slider img.active {
-    opacity: 1; /* 活动图片为不透明 */
+    opacity: 1; 
 }
 
 
